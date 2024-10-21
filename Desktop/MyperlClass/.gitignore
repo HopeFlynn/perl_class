@@ -1,0 +1,11 @@
+# Ignore Windows system files
+NTUSER.DAT*
+*.log
+*.ini
+/OneDrive/
+/Saved Games/
+/Searches/
+/Videos/
+/Taskmanager/
+/PycharmProjects/
+/PixelSee/
