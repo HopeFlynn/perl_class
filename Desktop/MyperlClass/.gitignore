@@ -9,3 +9,44 @@ NTUSER.DAT*
 /Taskmanager/
 /PycharmProjects/
 /PixelSee/
+# Ignore Anaconda and related files
+.conda/
+Anaconda3-*
+
+# Ignore configuration files
+.config/
+.condarc/
+.jupyter/
+.matplotlib/
+.vscode/
+.p2/
+.cache/
+.continuum/
+
+# Ignore Docker, Eclipse, and PyCharm settings
+.docker/
+.eclipse/
+.idea/
+
+# Ignore Git and Jupyter history files
+.bash_history
+.ipynb_checkpoints/
+.git/
+
+# Ignore backup and temporary files
+*.lnk
+*.exe
+
+# Ignore any Python-related environment files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore data science-related files
+*.csv
+*.dat
+*.pkl
+
+# Ignore all hidden directories (if you want to ignore all hidden directories)
+.*/
